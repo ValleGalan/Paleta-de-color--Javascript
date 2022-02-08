@@ -4,5 +4,8 @@ const salida =document.querySelector("#salida");
 
 color.addEventListener("input",()=>{
     const seleccionValor= color.value;//valor del color
+    
     salida.innerHTML =seleccionValor; //para reemplzar el html innerHTML 
+    salida.style.background=seleccionValor; 
+    salida.style.color="#fff"; 
 })

@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+html,body{
+margin:0;
+padding:0;
+}
+.salida{
+    text-transform:uppercase;
+    text-align:center;
+    font-weight: bold;
+    font-size: 4vh;
+}
+.color-div{
+    text-align:center;
+}

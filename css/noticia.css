@@ -1,0 +1,28 @@
+.encabezado{
+    font-size: 20px;
+    display:flex;
+}
+li{
+    display:flex;
+    flex-direction: row;
+    padding-right: 4%;
+}
+.noticias{
+    display: flex;
+    margin:3%;
+}
+.izquierda{
+    float:rigth;
+    display:flex;
+    order:1;
+}
+.derecha{
+    /* float:left;
+    display:flex; */
+    order:3;
+}
+.medio{
+    background-color:hotpink;
+    display:flex;
+    order:2;
+}
